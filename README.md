@@ -1,6 +1,9 @@
 ## Terraform AWS Infrastructure
 
-This terraform configuration deploys and manages multiple AWS services required to host and support my website - https://dibendusaha.com/
+This repository is part of the AWS Cloud Resume Challenge - <br />
+https://cloudresumechallenge.dev/docs/the-challenge/aws/
+
+This code repository contains terraform configurations that deploys and manages multiple AWS services required to host and support my website - https://dibendusaha.com/
 
 My website is hosted in an AWS **S3** bucket that is served to users via an Amazon **CloudFront** distribution.
 
