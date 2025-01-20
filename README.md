@@ -1,13 +1,12 @@
 ## Terraform AWS Infrastructure
 
-
 This terraform configuration deploys and manages multiple AWS services required to host and support my website - https://dibendusaha.com/
 
-My website is hosted in an **S3** bucket that is served to users via a Amazon **CloudFront** distribution.
+My website is hosted in an AWS **S3** bucket that is served to users via a Amazon **CloudFront** distribution.
 
-End users can download and view my resume which is stored in another **S3** bucket and is served to users via AWS **Lambda** and an Amazon **API Gateway**.
+End users can download and view my resume which is stored in another AWS **S3** bucket and is served to users via AWS **Lambda** and an Amazon **API Gateway**.
 
-End users can also see their visit queue position. This data is stored in a Amazon **DynamoDB** database and is served to users via another AWS **Lambda** and the Amazon **API Gateway**. 
+End users can also see their visit queue position. This data is stored in a Amazon **DynamoDB** database and is served to users via another AWS **Lambda** and the Amazon **API Gateway**.
 
 <br />
 
