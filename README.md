@@ -5,11 +5,11 @@ https://cloudresumechallenge.dev/docs/the-challenge/aws/
 
 This code repository contains terraform configurations that deploys and manages multiple AWS services required to host and support my website - <br />https://dibendusaha.com/
 
-My website is hosted in an AWS **S3** bucket that is served to users via an Amazon **CloudFront** distribution.
+The terraform configuration sets up the AWS **S3** bucket that hosts my website files, and an Amazon **CloudFront** distribution that serves my website to the end users.
 
-End users can download and view my resume which is stored in another AWS **S3** bucket and is served to users via AWS **Lambda** and an Amazon **API Gateway**.
+End users can download and view my resume, and hence the configuration sets up another AWS **S3** bucket which holds my CV. It also sets up an AWS **Lambda** and an Amazon **API Gateway** via which the CV is served.
 
-End users can also see their visit queue position. This data is stored in a Amazon **DynamoDB** database and is served to users via another AWS **Lambda** and the Amazon **API Gateway**.
+End users can also see their visit queue position, for which the terraform configuration creates an Amazon **DynamoDB** table that records the visitor count. To update and retrieve the data, terraform sets up another AWS **Lambda** which queries the count and sends back the data via the Amazon **API Gateway** that it created earlier.
 
 <br />
 
