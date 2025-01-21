@@ -6,6 +6,16 @@ This code repository contains terraform configurations that deploys and manages 
 <br />
 <br />
 
+## AWS Resources involved
+- IAM
+- S3
+- CloudFront
+- API Gateway
+- Lambda
+- DynamoDB
+- AWS Certificate Manager
+<br />
+
 ## Technicals
 The terraform configuration sets up the AWS <ins>**S3**</ins> bucket that hosts my website files, which sits behind Amazon <ins>**CloudFront**</ins> that serves my website to the end users globally.
 
