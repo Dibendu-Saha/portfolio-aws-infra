@@ -1,4 +1,4 @@
-# Create S3 bucket for the website
+# Create S3 bucket for the file
 resource "aws_s3_bucket" "bucket" {
   bucket = "portfolio-v2-resources"
 }
