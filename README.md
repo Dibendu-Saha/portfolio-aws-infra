@@ -1,5 +1,6 @@
-## Terraform AWS Infrastructure
+# Terraform AWS Infrastructure
 
+## About
 This repository is part of the AWS Cloud Resume Challenge - <br />
 https://cloudresumechallenge.dev/docs/the-challenge/aws/
 
@@ -11,6 +12,9 @@ End users can download and view my resume, and hence the configuration sets up a
 
 End users can also see their visit queue position, for which the terraform configuration creates an Amazon **DynamoDB** table that records the visitor count. To update and retrieve the data, terraform sets up another AWS **Lambda** which queries the count and sends back the data via the Amazon **API Gateway** that it created earlier.
 
+<br />
+
+## Architecture
 <br />
 
 ![portfolio-aws-infra-2 (transparent bg)](https://github.com/user-attachments/assets/a6d82af3-3f29-4b04-ac52-b8083b3c001f)
