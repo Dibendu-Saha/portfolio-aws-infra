@@ -1,6 +1,4 @@
 ## Terraform AWS Infrastructure
-<br />
-
 This repository is part of the AWS Cloud Resume Challenge - <br />
 https://cloudresumechallenge.dev/docs/the-challenge/aws/
 
