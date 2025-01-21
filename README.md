@@ -7,7 +7,7 @@ This code repository contains terraform configurations that deploys and manages 
 <br />
 
 ## Technicals
-The terraform configuration sets up the AWS <ins>**S3**</ins> bucket that hosts my website files, and an Amazon <ins>**CloudFront**</ins> distribution that serves my website to the end users.
+The terraform configuration sets up the AWS <ins>**S3**</ins> bucket that hosts my website files, which sits behind Amazon <ins>**CloudFront**</ins> that serves my website to the end users globally.
 
 End users can download and view my resume, and hence the configuration sets up another AWS <ins>**S3**</ins> bucket which holds my CV. It also sets up an AWS <ins>**Lambda**</ins> and an Amazon <ins>**API Gateway**</ins> via which the CV is served.
 
