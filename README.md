@@ -6,7 +6,7 @@ This code repository contains terraform configurations that deploys and manages 
 <br />
 <br />
 
-## AWS Resources involved
+## AWS Resources Involved
 - IAM
 - S3
 - CloudFront
