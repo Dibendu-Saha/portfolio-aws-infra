@@ -5,7 +5,10 @@ This repository is part of the AWS Cloud Resume Challenge - <br />
 https://cloudresumechallenge.dev/docs/the-challenge/aws/
 
 This code repository contains terraform configurations that deploys and manages multiple AWS services required to host and support my website - <br />https://dibendusaha.com/
+<br />
+<br />
 
+## Technicals
 The terraform configuration sets up the AWS **S3** bucket that hosts my website files, and an Amazon **CloudFront** distribution that serves my website to the end users.
 
 End users can download and view my resume, and hence the configuration sets up another AWS **S3** bucket which holds my CV. It also sets up an AWS **Lambda** and an Amazon **API Gateway** via which the CV is served.
