@@ -6,8 +6,18 @@ This code repository contains terraform configurations that deploys and manages 
 <br />
 <br />
 
+## AWS Resources Involved
+- IAM
+- S3
+- CloudFront
+- API Gateway
+- Lambda
+- DynamoDB
+- AWS Certificate Manager
+<br />
+
 ## Technicals
-The terraform configuration sets up the AWS <ins>**S3**</ins> bucket that hosts my website files, and an Amazon <ins>**CloudFront**</ins> distribution that serves my website to the end users.
+The terraform configuration sets up the AWS <ins>**S3**</ins> bucket that hosts my website files, which sits behind Amazon <ins>**CloudFront**</ins> that serves my website to the end users globally.
 
 End users can download and view my resume, and hence the configuration sets up another AWS <ins>**S3**</ins> bucket which holds my CV. It also sets up an AWS <ins>**Lambda**</ins> and an Amazon <ins>**API Gateway**</ins> via which the CV is served.
 
@@ -18,4 +28,5 @@ End users can also see their visit queue position, for which the terraform confi
 ## Architecture
 <br />
 
-![portfolio-aws-infra-2 (transparent bg)](https://github.com/user-attachments/assets/a6d82af3-3f29-4b04-ac52-b8083b3c001f)
+
+![Portfolio AWS Architecture](https://github.com/user-attachments/assets/4195706e-bcac-4844-be16-fe314762ba2a)
