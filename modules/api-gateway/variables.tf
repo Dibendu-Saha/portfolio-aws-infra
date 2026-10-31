@@ -17,3 +17,13 @@ variable "visitorCount_lambda_invoke_arn" {
   description = "Visitor count lambda invoke ARN"
   type        = string
 }
+
+variable "askAI_lambda_function_name" {
+  description = "Lambda function name"
+  type        = string
+}
+
+variable "askAI_lambda_invoke_arn" {
+  description = "Ask AI lambda invoke ARN"
+  type        = string
+}

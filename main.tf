@@ -36,10 +36,16 @@ module "lambda_visitor_count" {
   dynamodb_arn = module.dynamodb_visitor_count.dynamodb_arn
 }
 
+module "lambda_ask_ai" {
+  source = "./modules/lambda-ask-ai"
+}
+
 module "api_gateway" {
   source                            = "./modules/api-gateway"
   downloadCv_lambda_function_name   = module.lambda_download_cv.lambda_function_name
   downloadCv_lambda_invoke_arn      = module.lambda_download_cv.lambda_cv_invoke_arn
   visitorCount_lambda_invoke_arn    = module.lambda_visitor_count.lambda_visitor_invoke_arn
   visitorCount_lambda_function_name = module.lambda_visitor_count.lambda_visitor_function_name
+  askAI_lambda_invoke_arn           = module.lambda_ask_ai.lambda_ask_ai_invoke_arn
+  askAI_lambda_function_name        = module.lambda_ask_ai.lambda_ask_ai_function_name
 }
