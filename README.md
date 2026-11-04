@@ -30,3 +30,5 @@ End users can also see their visit queue position, for which the terraform confi
 
 
 ![Portfolio AWS Architecture](https://github.com/user-attachments/assets/4195706e-bcac-4844-be16-fe314762ba2a)
+[Portfolio AWS Architecture](<img width="938" height="711" alt="Portfolio AWS Infrastructure" src="https://github.com/user-attachments/assets/7e47461b-3290-4e06-8d14-8d66d0664508" />
+)
